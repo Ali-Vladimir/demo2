@@ -10,6 +10,8 @@ Route::get('/', function () {
 
 Route::get('/',[SafarioController::class,'index']);
 Route::get('/about',[SafarioController::class,'about']);
-Route::get('/contact',[SafarioController::class,'contact']);
-Route::get('/reservation',[SafarioController::class,'reservation']);
 Route::get('/packages',[SafarioController::class,'packages']);
+Route::get('/reservations',[SafarioController::class,'reservations']);
+Route::get('/contact',[SafarioController::class,'contact']);
+Route::get('/login',[SafarioController::class,'login']);
+Route::get('/signup',[SafarioController::class,'signup']);
